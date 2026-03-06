@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: gitops-app
-          image: madhavkeshava/gitops-app:latest
+          image: madhavkeshava/gitops-app:c848f50
           imagePullPolicy: Always
           ports:
             - name: http
